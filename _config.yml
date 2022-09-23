@@ -1,0 +1,168 @@
+# Site
+repository: XuanLiu/cv
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Xuan Liu
+title: Second-year ECE MS student @ Duke University
+email: xuan.liu115@duke.edu
+website: https://XuAnL9711.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  XuAnL9711
+linkedin_username: xuan-liu-1bab49224
+
+# About Section
+about_title: About Me
+about_profile_image: images/Xu_An.jpg
+about_content: |
+  I am a second-year M.S. student at Duke University majoring in Electrical & Computer Engineering. I received my BEng degree of Electronic Information Engineering at Wuhan University of Technology in 2020.<br>
+  My research interests include **Medical Image Analysis, Signal Processing, Deep Learning, Computer-aided Diagnosis, BCI**.
+
+
+content:
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Duke University
+        sub_title: M.S. in Electrical and Computer Engineering
+        caption: Aug. 2021 - May 2023
+        description: |
+          **Relevant course**:<br> 
+                                Introduction to Deep Learning, Machine Learning and Imaging, Fundamentals of Computer Systems and Engineering, Programming, Data Structures, and Algorithms in C++
+      
+      - layout: left
+        border: weak
+        title: Wuhan University of Technology (WHUT)
+        sub_title: BEng in Electronic Information Engineering
+        caption: Sept. 2016 - June 2020
+        description: |
+          **Relevant course**:<br>
+                                  Signal and System, Digital Image Processing, Digital Voice Processing, Probability and Mathematics Statistic, Complex Function and Integral Transform<br>
+                                
+          **Honors & Awards**:<br>  
+                                  Outstanding Bachelor Student, June 2020<br>
+                                  Second-class Scholarship, honorary title of "Triple A student", Nov. 2018
+      
+      - layout: left
+        title: University of British Columbia
+        sub_title: Summer School, major in Electrical and Computer Engineering
+        caption: July. 2018 - Aug. 2018
+        description: |
+          **Relevant course**:<br>
+                                  xxx
+          
+  - title: Publication
+    layout: list 
+    content:
+      - layout: top-middle
+        description: | 
+          Yinhao Ren, **Xuan Liu**, Jun Ge, Zisheng Liang, Lars J. Grimm, Jonathan Go, Jeffrey R. Marks, Joseph Y. Lo, Ipsilateral Lesion Detection Refinement for Tomosynthesis, IEEE Transactions on Medical Imaging, 2022, in preparation, (IF: 11.037)<br>
+          <br>
+          **Xuan Liu**, Yinhao Ren, Zisheng Liang, Lars J. Grimm, Jun Ge, Joseph Y. Lo, Multi-view DBT Grid-Attention Detection Framework, 2023 SPIE Medical Imaging Conference, 2022, under review<br>
+          <br>
+          Qing Cai, Chuan Liu, **Xuan Liu**, Shou-Zen Fan, Jiann-Shing Shieh, Da Li, Li Ma, Classification of Depth of Anesthesia Using Convolutional Neural Network Based on Entropy and Spectrum Analysis, Computational Intelligence and Neuroscience, 2022, under review, (IF: 3.120)
+
+
+  - title: Research Experience 
+    layout: list 
+    content:
+      - layout: left
+        border: weak
+        title: ICAD Inc.
+        sub_title: Research Intern
+        caption: July. 2022 - Aug. 2022
+        quote: >
+          Multi-view Digital Breast Tomosynthesis (DBT) Cancer Detection and Classification
+        description: | 
+            - Proposed a new hard negative sampling strategy to sample more difficult ipsilateral lesion pairs from False Positive (FP) detections in noncancer cases.<br>
+            -	Introduced a grid-attention module to apply spatial attention mechanism for ipsilateral patch similarity learning.<br>
+            -	Improved a novel patch matching algorithm (based on geometry cluster information in similar patch pairs), which decreased the number of FP-FP matching pairs by 7%.<br>
+            - Implemented the refined detection flowchart in 769 malignant, 362 benign and 1013 normal testing cases and improved 15% case specificity at 96% case sensitivity in Receiver Operating Characteristic (ROC) curve.<br>
+            - My improved model has a promising improvement over the ICAD's previous 4th generation product, and will become an additional 4.1th version to be sent to the Food and Drug Administration (FDA) for review at the end of September.
+            
+      - layout: left
+        title: Duke University - RAI Labs
+        sub_title: Research Assistant
+        caption: Sept. 2021 - Present
+        quote: >
+          Breast Mammography and Tomosynthesis Lesion Detection and Classification, supervised by Joseph Y. Lo
+        description: | 
+            -	Proposed a feature fusion method to concatenate extracted features from matched detection patches in different views and improved 2% case sensitivity at 60% case specificity.<br>
+            - Implemented breast cancer detection model based on RetinaNet in duke private digital mammography dataset with 7064 cases archiving true positive rate (TPR) of 92% and in DDSM public dataset with 1592 images archiving TPR of 96%.<br>
+            - Completed a malignant cancer patch cutting tool using bounding boxes predicted by the detection model.<br>
+            - Developed a binary classification model based on MobileNet to determine cancer and non-cancer cases in 56639 images of the duke dataset and ended with TPR of 93%.
+
+      - layout: left
+        title: Institute of Automation, Chinese Academy of Sciences
+        sub_title: Research Intern
+        caption: Aug. 2020 - May 2021
+        quote: >
+          Automatic Intra Vascular Guidewire Delivery in Abdominal Aorta, supervised by Xiaoliang Xie
+        description: | 
+            -	Designed and implemented an automatic guidewire delivery system using A* and Dijkstra path planning algorithms under ROS Kinetic framework for interventional treatment of the abdominal aortic aneurysm.<br>
+            - Proposed and realized system feedback between delivery control and guidewire tip position segmented from real-time X-ray images and applied TCP socket to communicate between master and slave computers with C++.<br>
+            -	Validated 5G remote automatic guidewire delivery system by two animal experiments between Beijing and Shanghai in 2021, and achieved the goal of delivery task from the aorta to branch arteries in pigs with the success rate of 72%.<br>
+            -	Optimized automatic passive guidewire delivery based on reinforcement learning.
+
+      - layout: left
+        title: Wuhan University of Technology
+        sub_title: Research
+        caption: Mar. 2019 - June 2020
+        quote: >
+          Anesthesia State Classification Based on EEG Signals, supervised by Li Ma, Jiann-Shing Shieh 
+        description: | 
+            -	Proposed a new feature combination method to transfer 1D entropy rows into 10297 2D matrices using Electroencephalogram (EEG) from 58 patients.<br>
+            -	Completed three kinds of convolutional neural network (CNN) structures applying entropy matrices as features by Keras and resulted in 87.40% awake and anesthetic states classification accuracy.<br>
+            -	Extracted 11197 spectrum images by FFT in the time-frequency domain from EEG.<br>
+            -	Implemented VGG network applying spectrum image as features and achieved 86.93% classification accuracy.
+      
+      - layout: left
+        title: Wuhan University of Technology
+        sub_title: Project
+        caption: July. 2019 - Aug. 2019
+        quote: >
+          Application of U-net Convolutional Neural Network on ISBI2012 Challenge Data Set 
+        description: | 
+            -	Implemented U-net network to segmentation of neuronal structures in EM stacks challenge (ISBI 2012), and achieved the pixel accuracy at 86.2%.<br>
+            -	Compared segmentation results using U-net with previous traditional matching learning methods and verified that the U-net structure has strong universality for medical image segmentation tasks.
+
+      - layout: left
+        title: Wuhan University of Technology
+        sub_title: Project
+        caption: July. 2019 - Aug. 2019
+        quote: >
+          Feature Extraction and Classification of Resting and Working Brain Magnetic Signals 
+        description: | 
+            -	Extracted 1D sample entropy, permutation entropy, and approximate entropy series in the time domain for both resting and working states using Magnetoencephalography (MEG).<br>
+            -	Implemented four kinds of machine learning classification (Logistic Regression, Decision Tree, KNN, SVM) on MEG for resting and working classification task with the highest accuracy of 91.3%.
+
+  - title: Technical Skills
+    layout: list 
+    content:
+      - layout: top-middle
+        description: | 
+          -	**Programming Languages**: Python, C++, C, MATLAB, Verilog.<br>
+          -	**Framework and Tools**: TensorFlow, Keras, OpenCV, Numpy, ROS, PyCharm, Linux, Emacs, Nano, GCC, Git, Valgrind.
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
