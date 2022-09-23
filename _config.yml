@@ -23,7 +23,7 @@ about_title: About Me
 about_profile_image: images/Xu_An.jpg
 about_content: |
   I am a second-year M.S. student at Duke University majoring in Electrical & Computer Engineering. I received my BEng degree of Electronic Information Engineering at Wuhan University of Technology in 2020.<br>
-  My research interests include **Medical Image Analysis, Signal Processing, Deep Learning, Computer-aided Diagnosis, BCI**.
+  My research interests include **Medical Image Analysis, Signal Processing, Deep Learning, Computer-aided Diagnosis and BCI**.
 
 
 content:
@@ -31,7 +31,6 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
         title: Duke University
         sub_title: M.S. in Electrical and Computer Engineering
         caption: Aug. 2021 - May 2023
@@ -40,7 +39,6 @@ content:
                                 Introduction to Deep Learning, Machine Learning and Imaging, Fundamentals of Computer Systems and Engineering, Programming, Data Structures, and Algorithms in C++
       
       - layout: left
-        border: weak
         title: Wuhan University of Technology (WHUT)
         sub_title: BEng in Electronic Information Engineering
         caption: Sept. 2016 - June 2020
@@ -49,11 +47,11 @@ content:
                                   Signal and System, Digital Image Processing, Digital Voice Processing, Probability and Mathematics Statistic, Complex Function and Integral Transform<br>
                                 
           **Honors & Awards**:<br>  
-                                  Outstanding Bachelor Student, June 2020<br>
+                                  Outstanding Bachelor Student, June 2020
                                   Second-class Scholarship, honorary title of "Triple A student", Nov. 2018
       
       - layout: left
-        title: University of British Columbia
+        title: University of British Columbia (BCI)
         sub_title: Summer School, major in Electrical and Computer Engineering
         caption: July. 2018 - Aug. 2018
         description: |
@@ -76,7 +74,6 @@ content:
     layout: list 
     content:
       - layout: left
-        border: weak
         title: ICAD Inc.
         sub_title: Research Intern
         caption: July. 2022 - Aug. 2022
@@ -102,7 +99,7 @@ content:
             - Developed a binary classification model based on MobileNet to determine cancer and non-cancer cases in 56639 images of the duke dataset and ended with TPR of 93%.
 
       - layout: left
-        title: Institute of Automation, Chinese Academy of Sciences
+        title: Institute of Automation, Chinese Academy of Sciences (CASIA)
         sub_title: Research Intern
         caption: Aug. 2020 - May 2021
         quote: >
@@ -115,7 +112,7 @@ content:
 
       - layout: left
         title: Wuhan University of Technology
-        sub_title: Research
+        sub_title: Research Project
         caption: Mar. 2019 - June 2020
         quote: >
           Anesthesia State Classification Based on EEG Signals, supervised by Li Ma, Jiann-Shing Shieh 
