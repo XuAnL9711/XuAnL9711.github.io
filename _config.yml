@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Xuan Liu
-title: Second-year ECE MS student @ Duke University
+title: First-year ECE Ph.D. student @ Duke University
 email: xuan.liu115@duke.edu
 website: https://XuAnL9711.github.io/
 
@@ -22,8 +22,8 @@ linkedin_username: xuan-liu-1bab49224
 about_title: About Me
 about_profile_image: images/Xuan_Liu.jpg
 about_content: |
-  I am a second-year M.S. student at Duke University majoring in Electrical & Computer Engineering. I received my BEng degree of Electronic Information Engineering at Wuhan University of Technology in 2020.<br>
-  My research interests include **Medical Image Analysis, Signal Processing, Deep Learning, Computer-aided Diagnosis and Brain-Computer Interfaces (BCI)**.
+  I am a first-year Ph.D. student at Duke University majoring in Electrical & Computer Engineering. I received my M.S. degree of Electrical & Computer Engineering at Duke University in 2022 and BEng degree of Electronic Information Engineering at Wuhan University of Technology in 2020.<br>
+  My research interests include **Computer-aided Diagnosis, Deep Learning, Medical Image Analysis and Signal Processing**.
 
 
 content:
@@ -32,12 +32,21 @@ content:
     content:
       - layout: left
         title: Duke University
-        sub_title: M.S. in Electrical and Computer Engineering
-        caption: Aug. 2021 - May 2023
+        sub_title: Ph.D. in Electrical and Computer Engineering
+        caption: Jan. 2023 - Present
         description: |
           **Relevant course**:<br> 
-                                Introduction to Deep Learning, Machine Learning and Imaging, Fundamentals of Computer Systems and Engineering, Programming, Data Structures, and Algorithms in C++
+                                Data Science, Machine Learning and Imaging, Programming
       
+      - layout: left
+        title: Duke University
+        sub_title: M.S. in Electrical and Computer Engineering
+        caption: Aug. 2021 - Dec. 2022
+        description: |
+          **Relevant course**:<br> 
+                                Introduction to Deep Learning, Data Structures, and Algorithms in C++
+
+
       - layout: left
         title: Wuhan University of Technology (WHUT)
         sub_title: BEng in Electronic Information Engineering
