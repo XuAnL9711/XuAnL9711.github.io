@@ -64,18 +64,16 @@ content:
         title: University of British Columbia (UBC)
         sub_title: Summer School, major in Electrical and Computer Engineering
         caption: July. 2018 - Aug. 2018
-        description: |
-          **Relevant course**:<br>
-                                  xxx
+
           
   - title: Publication
     layout: list 
     content:
       - layout: top-middle
         description: | 
-          Yinhao Ren, **Xuan Liu**, Jun Ge, Zisheng Liang, Lars J. Grimm, Jonathan Go, Jeffrey R. Marks, Joseph Y. Lo, Ipsilateral Lesion Detection Refinement for Tomosynthesis, IEEE Transactions on Medical Imaging, 2022, in preparation, (IF: 11.037)<br>
+          Yinhao Ren, **Xuan Liu**, Jun Ge, Zisheng Liang, Lars J. Grimm, Jonathan Go, Jeffrey R. Marks, Joseph Y. Lo, Ipsilateral Lesion Detection Refinement for Tomosynthesis, IEEE Transactions on Medical Imaging, 2022, under review, (IF: 11.037)<br>
           <br>
-          **Xuan Liu**, Yinhao Ren, Zisheng Liang, Lars J. Grimm, Jun Ge, Joseph Y. Lo, Multi-view DBT Grid-Attention Detection Framework, 2023 SPIE Medical Imaging Conference, 2022, under review<br>
+          **Xuan Liu**, Yinhao Ren, Zisheng Liang, Lars J. Grimm, Jun Ge, Joseph Y. Lo, Multi-view DBT Grid-Attention Detection Framework, 2023 SPIE Medical Imaging Conference, 2023, Accepted<br>
           <br>
           Qing Cai, Chuan Liu, **Xuan Liu**, Shou-Zen Fan, Jiann-Shing Shieh, Da Li, Li Ma, Classification of Depth of Anesthesia Using Convolutional Neural Network Based on Entropy and Spectrum Analysis, Computational Intelligence and Neuroscience, 2022, under review, (IF: 3.120)
 
