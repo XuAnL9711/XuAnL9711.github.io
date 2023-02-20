@@ -119,7 +119,7 @@ content:
             -	Optimized automatic passive guidewire delivery based on reinforcement learning.
 
       - layout: left
-        title: Wuhan University of Technology
+        title: Wuhan University of Technology (WHUT)
         sub_title: Research Project
         caption: Mar. 2019 - June 2020
         quote: >
@@ -131,7 +131,7 @@ content:
             -	Implemented VGG network applying spectrum image as features and achieved 86.93% classification accuracy.
       
       - layout: left
-        title: Wuhan University of Technology
+        title: Wuhan University of Technology (WHUT)
         sub_title: Project
         caption: July. 2019 - Aug. 2019
         quote: >
@@ -141,7 +141,7 @@ content:
             -	Compared segmentation results using U-net with previous traditional matching learning methods and verified that the U-net structure has strong universality for medical image segmentation tasks.
 
       - layout: left
-        title: Wuhan University of Technology
+        title: Wuhan University of Technology (WHUT)
         sub_title: Project
         caption: July. 2019 - Aug. 2019
         quote: >
